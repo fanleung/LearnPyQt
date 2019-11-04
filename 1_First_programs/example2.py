@@ -8,11 +8,12 @@ from PyQt5.QtGui import QIcon
 # Example 这个类继承父类 QWidget, 做了初始化，且调用了 super初始化了父类的构建函数，
 # 那么 Example 类会继承父类 QWidget 的方法，使得initUI() 可以用父类的方法
 # 类似 c 语言的声明
+# https://blog.csdn.net/paopaohll/article/details/83063349
 
 class Example(QWidget):
-    def __init__(self):
-        super().__init__() # 因为重新初始化了，如果没调用 super().__init__(), 就不能使用父类的方法
-        self.initUI()
+    def __init__(self):     # 因为 def __init__(self) 重新初始化了
+        super().__init__()  # 如果没调用 super().__init__(), initUI()就不能使用父类 Qwidget 的方法
+        self.initUI()       # 比如 setGeometry
 
     def initUI(self):
         # setGeometry() 有两个作用：把窗口放到屏幕上并且设置窗口大小
