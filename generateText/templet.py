@@ -1,7 +1,3 @@
-# 根据输入的输入参数
-# 点击按钮
-# 生成文本
-
 from PyQt5.QtWidgets import (QWidget, QPushButton, QLineEdit,
     QLabel, QApplication, QGridLayout, QMessageBox)
 import sys
