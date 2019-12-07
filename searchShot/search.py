@@ -11,8 +11,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from bs4 import BeautifulSoup
 import imgkit
+import threading
 
 
+threads = []
 
 # 查看chrome 的版本，下载对应的 chromeDriver 版本
 
@@ -134,8 +136,6 @@ class Example(QWidget):
         # topLeftLayout.addWidget(self.EnableBox1, 0, 12)
 
 
-
-
         leftLayout = QVBoxLayout()
         leftLayout.addLayout(topLeftLayout)
 
@@ -170,6 +170,7 @@ class Example(QWidget):
         str_time = time.strftime('%Y-%m-%d %H-%M-%S', local_time)
         self.currentTime = str(str_time)
 
+
     def handleKey1(self):
         # 处理第一个
         if self.EnableBox1.isChecked() == True:
@@ -180,13 +181,12 @@ class Example(QWidget):
                 path = os.path.join("搜索1", i)
                 os.remove(path)
 
-
-
             # 打开浏览器
             if self.browserCombo.currentText() == "chrome 浏览器":
                 driver = webdriver.Chrome()
             else:
                 driver = webdriver.Edge()
+                time.sleep(1)
             driver.get(self.url)
 
             if self.url == 'http://www.google.com/':
@@ -196,13 +196,16 @@ class Example(QWidget):
                 input.send_keys(Keys.RETURN)
 
                 # # 获取 google 搜索共有多少页
-                bsobj = BeautifulSoup(driver.page_source, features="html.parser")
-                # 获取当前url
-                # print(driver.current_url)
-                num_text_element = bsobj.find('div', {'id': 'resultStats'})
-                nums = filter(lambda s: s.isdigit(), num_text_element.text.partition('条')[0])
-                self.realPageNum = (int(''.join(nums)) + 9) // 10
-                print('self.realPageNum: ', self.realPageNum)
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # bsobj = BeautifulSoup(driver.page_source, 'lxml')
+                # # 获取当前url
+                # # print(driver.current_url)
+                # time.sleep(2)
+                # num_text_element = bsobj.find('div', {'id': 'resultStats'})
+                # nums = filter(lambda s: s.isdigit(), num_text_element.text.partition(',')[0])
+                # self.realPageNum = (int(''.join(nums)) + 9) // 10
+                # print('搜索结果: ', self.realPageNum)
+                # # print('self.realPageNum: ', self.realPageNum)
 
                 # # 如果搜索页数少于设置的截图页数，以搜索页数为准
                 if self.realPageNum < self.customPageNum:
@@ -248,18 +251,17 @@ class Example(QWidget):
                 time.sleep(2)
 
                 # 获取百度搜索共有多少页
-                bsobj = BeautifulSoup(driver.page_source, features="html.parser")
-                # 获取当前url
-                # print(driver.current_url)
-                num_text_element = bsobj.find('span', {'class': 'nums_text'})
-                nums = filter(lambda s: s == ',' or s.isdigit(), num_text_element.text)
-                self.realPageNum = (int((''.join(nums)).replace(',', '')) + 9) // 10
+                # 暂时不需要这种方法
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # 获取当前url
+                # # print(driver.current_url)
+                # num_text_element = bsobj.find('span', {'class': 'nums_text'})
+                # nums = filter(lambda s: s == ',' or s.isdigit(), num_text_element.text)
+                # self.realPageNum = (int((''.join(nums)).replace(',', '')) + 9) // 10
 
                 # 如果搜索页数少于设置的截图页数，以搜索页数为准
                 if self.customPageNum > 76:
                     self.customPageNum = 76
-                if self.realPageNum < self.customPageNum:
-                    self.customPageNum = self.realPageNum
 
                 for i in range(self.customPageNum):
                     print(driver.current_url)
@@ -292,7 +294,496 @@ class Example(QWidget):
                         nextPage.click()
 
 
+    def handleKey2(self):
+        # 处理第一个
+        if self.EnableBox2.isChecked() == True:
+            # 新建文件夹，并删除文件夹内的所有文件
+            if not os.path.exists("搜索2"):
+                os.makedirs("搜索2")
+            for i in os.listdir("搜索2"):
+                path = os.path.join("搜索2", i)
+                os.remove(path)
+
+            # 打开浏览器
+            if self.browserCombo.currentText() == "chrome 浏览器":
+                driver = webdriver.Chrome()
+            else:
+                driver = webdriver.Edge()
+                time.sleep(1)
+            driver.get(self.url)
+
+            if self.url == 'http://www.google.com/':
+                # todo 处理 google
+                input = driver.find_element_by_xpath('//input[@name="q"]')
+                input.send_keys(self.lineEdit2.text())
+                input.send_keys(Keys.RETURN)
+
+                # # 获取 google 搜索共有多少页
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # bsobj = BeautifulSoup(driver.page_source, 'lxml')
+                # # 获取当前url
+                # # print(driver.current_url)
+                # time.sleep(2)
+                # num_text_element = bsobj.find('div', {'id': 'resultStats'})
+                # nums = filter(lambda s: s.isdigit(), num_text_element.text.partition(',')[0])
+                # self.realPageNum = (int(''.join(nums)) + 9) // 10
+                # print('搜索结果: ', self.realPageNum)
+                # # print('self.realPageNum: ', self.realPageNum)
+
+                # # 如果搜索页数少于设置的截图页数，以搜索页数为准
+                if self.realPageNum < self.customPageNum:
+                    self.customPageNum = self.realPageNum
+
+                for i in range(self.customPageNum):
+                    print(driver.current_url)
+                    try:
+                        result = imgkit.from_url(str(driver.current_url),
+                                 '搜索2/{0}_{1}_{2}.jpeg'.format(self.currentTime, self.lineEdit2.text(), (i+1)),
+                                 config=self.imgkitConfig, options=self.imgKitOptions)
+                    except:
+                        # 此处一个Exit with code 1 due to network error: ContentNotFoundError异常
+                        # 此异常为是因为css文件引用了外部的资源，如：字体，图片，iframe加载等。
+                        # 选择忽略此异常
+                        pass
+                    # print(result)
+                    # time.sleep(1)
+                    # 到了最后一页不再点击了,并且关闭浏览器
+                    if i == self.customPageNum - 1:
+                        driver.close()
+                        return
+                    """
+                    判断是否还能再翻页
+                    """
+                    try:
+                        nextPage = driver.find_element_by_link_text("下一页")
+                    # 原文是except NoSuchElementException, e:
+                    except NoSuchElementException as e:
+                    # 发生了NoSuchElementException异常，说明页面中未找到该元素，返回False
+                        driver.close()
+                        return
+                    else:
+                        # 没有发生异常，则继续点击下一页
+                        nextPage.click()
+
+
+            else:
+                # # todo 处理 百度
+                driver.find_element_by_id("kw").send_keys(self.lineEdit2.text())
+                driver.find_element_by_id("su").click()
+                # 这里要延时一下，确保已经到搜索结果页面，可适当延长
+                time.sleep(2)
+
+                # 获取百度搜索共有多少页
+                # 暂时不需要这种方法
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # 获取当前url
+                # # print(driver.current_url)
+                # num_text_element = bsobj.find('span', {'class': 'nums_text'})
+                # nums = filter(lambda s: s == ',' or s.isdigit(), num_text_element.text)
+                # self.realPageNum = (int((''.join(nums)).replace(',', '')) + 9) // 10
+
+                # 如果搜索页数少于设置的截图页数，以搜索页数为准
+                if self.customPageNum > 76:
+                    self.customPageNum = 76
+
+                for i in range(self.customPageNum):
+                    print(driver.current_url)
+                    try:
+                        result = imgkit.from_url(str(driver.current_url),
+                         '搜索2/{0}_{1}_{2}.jpeg'.format(self.currentTime, self.lineEdit2.text(), (i+1)),
+                                 config=self.imgkitConfig)
+                    except:
+                        # 此处一个Exit with code 1 due to network error: ContentNotFoundError异常
+                        # 此异常为是因为css文件引用了外部的资源，如：字体，图片，iframe加载等。
+                        # 选择忽略此异常
+                        pass
+                    # print(result)
+                    # time.sleep(1)
+                    if i == self.customPageNum - 1:
+                        driver.close()
+                        return
+                    """
+                    判断是否还能再翻页
+                    """
+                    try:
+                        nextPage = driver.find_element_by_link_text("下一页>")
+                    # 原文是except NoSuchElementException, e:
+                    except NoSuchElementException as e:
+                    # 发生了NoSuchElementException异常，说明页面中未找到该元素，返回False
+                        driver.close()
+                        return
+                    else:
+                        # 没有发生异常，则继续点击下一页
+                        nextPage.click()
+    def handleKey3(self):
+        # 处理第一个
+        if self.EnableBox3.isChecked() == True:
+            # 新建文件夹，并删除文件夹内的所有文件
+            if not os.path.exists("搜索3"):
+                os.makedirs("搜索3")
+            for i in os.listdir("搜索3"):
+                path = os.path.join("搜索3", i)
+                os.remove(path)
+
+            # 打开浏览器
+            if self.browserCombo.currentText() == "chrome 浏览器":
+                driver = webdriver.Chrome()
+            else:
+                driver = webdriver.Edge()
+                time.sleep(1)
+            driver.get(self.url)
+
+            if self.url == 'http://www.google.com/':
+                # todo 处理 google
+                input = driver.find_element_by_xpath('//input[@name="q"]')
+                input.send_keys(self.lineEdit3.text())
+                input.send_keys(Keys.RETURN)
+
+                # # 获取 google 搜索共有多少页
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # bsobj = BeautifulSoup(driver.page_source, 'lxml')
+                # # 获取当前url
+                # # print(driver.current_url)
+                # time.sleep(2)
+                # num_text_element = bsobj.find('div', {'id': 'resultStats'})
+                # nums = filter(lambda s: s.isdigit(), num_text_element.text.partition(',')[0])
+                # self.realPageNum = (int(''.join(nums)) + 9) // 10
+                # print('搜索结果: ', self.realPageNum)
+                # # print('self.realPageNum: ', self.realPageNum)
+
+                # # 如果搜索页数少于设置的截图页数，以搜索页数为准
+                if self.realPageNum < self.customPageNum:
+                    self.customPageNum = self.realPageNum
+
+                for i in range(self.customPageNum):
+                    print(driver.current_url)
+                    try:
+                        result = imgkit.from_url(str(driver.current_url),
+                                 '搜索3/{0}_{1}_{2}.jpeg'.format(self.currentTime, self.lineEdit3.text(), (i+1)),
+                                 config=self.imgkitConfig, options=self.imgKitOptions)
+                    except:
+                        # 此处一个Exit with code 1 due to network error: ContentNotFoundError异常
+                        # 此异常为是因为css文件引用了外部的资源，如：字体，图片，iframe加载等。
+                        # 选择忽略此异常
+                        pass
+                    # print(result)
+                    # time.sleep(1)
+                    # 到了最后一页不再点击了,并且关闭浏览器
+                    if i == self.customPageNum - 1:
+                        driver.close()
+                        return
+                    """
+                    判断是否还能再翻页
+                    """
+                    try:
+                        nextPage = driver.find_element_by_link_text("下一页")
+                    # 原文是except NoSuchElementException, e:
+                    except NoSuchElementException as e:
+                    # 发生了NoSuchElementException异常，说明页面中未找到该元素，返回False
+                        driver.close()
+                        return
+                    else:
+                        # 没有发生异常，则继续点击下一页
+                        nextPage.click()
+
+
+            else:
+                # # todo 处理 百度
+                driver.find_element_by_id("kw").send_keys(self.lineEdit3.text())
+                driver.find_element_by_id("su").click()
+                # 这里要延时一下，确保已经到搜索结果页面，可适当延长
+                time.sleep(2)
+
+                # 获取百度搜索共有多少页
+                # 暂时不需要这种方法
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # 获取当前url
+                # # print(driver.current_url)
+                # num_text_element = bsobj.find('span', {'class': 'nums_text'})
+                # nums = filter(lambda s: s == ',' or s.isdigit(), num_text_element.text)
+                # self.realPageNum = (int((''.join(nums)).replace(',', '')) + 9) // 10
+
+                # 如果搜索页数少于设置的截图页数，以搜索页数为准
+                if self.customPageNum > 76:
+                    self.customPageNum = 76
+
+                for i in range(self.customPageNum):
+                    print(driver.current_url)
+                    try:
+                        result = imgkit.from_url(str(driver.current_url),
+                         '搜索3/{0}_{1}_{2}.jpeg'.format(self.currentTime, self.lineEdit3.text(), (i+1)),
+                                 config=self.imgkitConfig)
+                    except:
+                        # 此处一个Exit with code 1 due to network error: ContentNotFoundError异常
+                        # 此异常为是因为css文件引用了外部的资源，如：字体，图片，iframe加载等。
+                        # 选择忽略此异常
+                        pass
+                    # print(result)
+                    # time.sleep(1)
+                    if i == self.customPageNum - 1:
+                        driver.close()
+                        return
+                    """
+                    判断是否还能再翻页
+                    """
+                    try:
+                        nextPage = driver.find_element_by_link_text("下一页>")
+                    # 原文是except NoSuchElementException, e:
+                    except NoSuchElementException as e:
+                    # 发生了NoSuchElementException异常，说明页面中未找到该元素，返回False
+                        driver.close()
+                        return
+                    else:
+                        # 没有发生异常，则继续点击下一页
+                        nextPage.click()
+    def handleKey4(self):
+        # 处理第一个
+        if self.EnableBox4.isChecked() == True:
+            # 新建文件夹，并删除文件夹内的所有文件
+            if not os.path.exists("搜索4"):
+                os.makedirs("搜索4")
+            for i in os.listdir("搜索4"):
+                path = os.path.join("搜索4", i)
+                os.remove(path)
+
+            # 打开浏览器
+            if self.browserCombo.currentText() == "chrome 浏览器":
+                driver = webdriver.Chrome()
+            else:
+                driver = webdriver.Edge()
+                time.sleep(1)
+            driver.get(self.url)
+
+            if self.url == 'http://www.google.com/':
+                # todo 处理 google
+                input = driver.find_element_by_xpath('//input[@name="q"]')
+                input.send_keys(self.lineEdit4.text())
+                input.send_keys(Keys.RETURN)
+
+                # # 获取 google 搜索共有多少页
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # bsobj = BeautifulSoup(driver.page_source, 'lxml')
+                # # 获取当前url
+                # # print(driver.current_url)
+                # time.sleep(2)
+                # num_text_element = bsobj.find('div', {'id': 'resultStats'})
+                # nums = filter(lambda s: s.isdigit(), num_text_element.text.partition(',')[0])
+                # self.realPageNum = (int(''.join(nums)) + 9) // 10
+                # print('搜索结果: ', self.realPageNum)
+                # # print('self.realPageNum: ', self.realPageNum)
+
+                # # 如果搜索页数少于设置的截图页数，以搜索页数为准
+                if self.realPageNum < self.customPageNum:
+                    self.customPageNum = self.realPageNum
+
+                for i in range(self.customPageNum):
+                    print(driver.current_url)
+                    try:
+                        result = imgkit.from_url(str(driver.current_url),
+                                 '搜索4/{0}_{1}_{2}.jpeg'.format(self.currentTime, self.lineEdit4.text(), (i+1)),
+                                 config=self.imgkitConfig, options=self.imgKitOptions)
+                    except:
+                        # 此处一个Exit with code 1 due to network error: ContentNotFoundError异常
+                        # 此异常为是因为css文件引用了外部的资源，如：字体，图片，iframe加载等。
+                        # 选择忽略此异常
+                        pass
+                    # print(result)
+                    # time.sleep(1)
+                    # 到了最后一页不再点击了,并且关闭浏览器
+                    if i == self.customPageNum - 1:
+                        driver.close()
+                        return
+                    """
+                    判断是否还能再翻页
+                    """
+                    try:
+                        nextPage = driver.find_element_by_link_text("下一页")
+                    # 原文是except NoSuchElementException, e:
+                    except NoSuchElementException as e:
+                    # 发生了NoSuchElementException异常，说明页面中未找到该元素，返回False
+                        driver.close()
+                        return
+                    else:
+                        # 没有发生异常，则继续点击下一页
+                        nextPage.click()
+
+
+            else:
+                # # todo 处理 百度
+                driver.find_element_by_id("kw").send_keys(self.lineEdit4.text())
+                driver.find_element_by_id("su").click()
+                # 这里要延时一下，确保已经到搜索结果页面，可适当延长
+                time.sleep(2)
+
+                # 获取百度搜索共有多少页
+                # 暂时不需要这种方法
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # 获取当前url
+                # # print(driver.current_url)
+                # num_text_element = bsobj.find('span', {'class': 'nums_text'})
+                # nums = filter(lambda s: s == ',' or s.isdigit(), num_text_element.text)
+                # self.realPageNum = (int((''.join(nums)).replace(',', '')) + 9) // 10
+
+                # 如果搜索页数少于设置的截图页数，以搜索页数为准
+                if self.customPageNum > 76:
+                    self.customPageNum = 76
+
+                for i in range(self.customPageNum):
+                    print(driver.current_url)
+                    try:
+                        result = imgkit.from_url(str(driver.current_url),
+                         '搜索4/{0}_{1}_{2}.jpeg'.format(self.currentTime, self.lineEdit4.text(), (i+1)),
+                                 config=self.imgkitConfig)
+                    except:
+                        # 此处一个Exit with code 1 due to network error: ContentNotFoundError异常
+                        # 此异常为是因为css文件引用了外部的资源，如：字体，图片，iframe加载等。
+                        # 选择忽略此异常
+                        pass
+                    # print(result)
+                    # time.sleep(1)
+                    if i == self.customPageNum - 1:
+                        driver.close()
+                        return
+                    """
+                    判断是否还能再翻页
+                    """
+                    try:
+                        nextPage = driver.find_element_by_link_text("下一页>")
+                    # 原文是except NoSuchElementException, e:
+                    except NoSuchElementException as e:
+                    # 发生了NoSuchElementException异常，说明页面中未找到该元素，返回False
+                        driver.close()
+                        return
+                    else:
+                        # 没有发生异常，则继续点击下一页
+                        nextPage.click()
+    def handleKey5(self):
+        # 处理第一个
+        if self.EnableBox5.isChecked() == True:
+            # 新建文件夹，并删除文件夹内的所有文件
+            if not os.path.exists("搜索5"):
+                os.makedirs("搜索5")
+            for i in os.listdir("搜索5"):
+                path = os.path.join("搜索5", i)
+                os.remove(path)
+
+            # 打开浏览器
+            if self.browserCombo.currentText() == "chrome 浏览器":
+                driver = webdriver.Chrome()
+            else:
+                driver = webdriver.Edge()
+                time.sleep(1)
+            driver.get(self.url)
+
+            if self.url == 'http://www.google.com/':
+                # todo 处理 google
+                input = driver.find_element_by_xpath('//input[@name="q"]')
+                input.send_keys(self.lineEdit5.text())
+                input.send_keys(Keys.RETURN)
+
+                # # 获取 google 搜索共有多少页
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # bsobj = BeautifulSoup(driver.page_source, 'lxml')
+                # # 获取当前url
+                # # print(driver.current_url)
+                # time.sleep(2)
+                # num_text_element = bsobj.find('div', {'id': 'resultStats'})
+                # nums = filter(lambda s: s.isdigit(), num_text_element.text.partition(',')[0])
+                # self.realPageNum = (int(''.join(nums)) + 9) // 10
+                # print('搜索结果: ', self.realPageNum)
+                # # print('self.realPageNum: ', self.realPageNum)
+
+                # # 如果搜索页数少于设置的截图页数，以搜索页数为准
+                if self.realPageNum < self.customPageNum:
+                    self.customPageNum = self.realPageNum
+
+                for i in range(self.customPageNum):
+                    print(driver.current_url)
+                    try:
+                        result = imgkit.from_url(str(driver.current_url),
+                                 '搜索5/{0}_{1}_{2}.jpeg'.format(self.currentTime, self.lineEdit5.text(), (i+1)),
+                                 config=self.imgkitConfig, options=self.imgKitOptions)
+                    except:
+                        # 此处一个Exit with code 1 due to network error: ContentNotFoundError异常
+                        # 此异常为是因为css文件引用了外部的资源，如：字体，图片，iframe加载等。
+                        # 选择忽略此异常
+                        pass
+                    # print(result)
+                    # time.sleep(1)
+                    # 到了最后一页不再点击了,并且关闭浏览器
+                    if i == self.customPageNum - 1:
+                        driver.close()
+                        return
+                    """
+                    判断是否还能再翻页
+                    """
+                    try:
+                        nextPage = driver.find_element_by_link_text("下一页")
+                    # 原文是except NoSuchElementException, e:
+                    except NoSuchElementException as e:
+                    # 发生了NoSuchElementException异常，说明页面中未找到该元素，返回False
+                        driver.close()
+                        return
+                    else:
+                        # 没有发生异常，则继续点击下一页
+                        nextPage.click()
+
+
+            else:
+                # # todo 处理 百度
+                driver.find_element_by_id("kw").send_keys(self.lineEdit5.text())
+                driver.find_element_by_id("su").click()
+                # 这里要延时一下，确保已经到搜索结果页面，可适当延长
+                time.sleep(2)
+
+                # 获取百度搜索共有多少页
+                # 暂时不需要这种方法
+                # bsobj = BeautifulSoup(driver.page_source, features="html.parser")
+                # # 获取当前url
+                # # print(driver.current_url)
+                # num_text_element = bsobj.find('span', {'class': 'nums_text'})
+                # nums = filter(lambda s: s == ',' or s.isdigit(), num_text_element.text)
+                # self.realPageNum = (int((''.join(nums)).replace(',', '')) + 9) // 10
+
+                # 如果搜索页数少于设置的截图页数，以搜索页数为准
+                if self.customPageNum > 76:
+                    self.customPageNum = 76
+
+                for i in range(self.customPageNum):
+                    print(driver.current_url)
+                    try:
+                        result = imgkit.from_url(str(driver.current_url),
+                         '搜索5/{0}_{1}_{2}.jpeg'.format(self.currentTime, self.lineEdit5.text(), (i+1)),
+                                 config=self.imgkitConfig)
+                    except:
+                        # 此处一个Exit with code 1 due to network error: ContentNotFoundError异常
+                        # 此异常为是因为css文件引用了外部的资源，如：字体，图片，iframe加载等。
+                        # 选择忽略此异常
+                        pass
+                    # print(result)
+                    # time.sleep(1)
+                    if i == self.customPageNum - 1:
+                        driver.close()
+                        return
+                    """
+                    判断是否还能再翻页
+                    """
+                    try:
+                        nextPage = driver.find_element_by_link_text("下一页>")
+                    # 原文是except NoSuchElementException, e:
+                    except NoSuchElementException as e:
+                    # 发生了NoSuchElementException异常，说明页面中未找到该元素，返回False
+                        driver.close()
+                        return
+                    else:
+                        # 没有发生异常，则继续点击下一页
+                        nextPage.click()
+
+
     def searchWeb(self):
+
+        threads.clear()
+
         # 获取当前时间
         self.getCurrentTimeString()
 
@@ -305,16 +796,25 @@ class Example(QWidget):
         # 获取选择下载的页数
         self.customPageNum = self.spinbox.value()
 
-        self.handleKey1()
+        # 创建多线程
+        t1 = threading.Thread(target=self.handleKey1)
+        threads.append(t1)
+        t2 = threading.Thread(target=self.handleKey2)
+        threads.append(t2)
+        t3 = threading.Thread(target=self.handleKey3)
+        threads.append(t3)
+        t4 = threading.Thread(target=self.handleKey4)
+        threads.append(t4)
+        t5 = threading.Thread(target=self.handleKey5)
+        threads.append(t5)
 
-        # if self.EnableBox2.isChecked() == True:
-        #     print(self.lineEdit2.text())
-        # if self.EnableBox3.isChecked() == True:
-        #     print(self.lineEdit3.text())
-        # if self.EnableBox4.isChecked() == True:
-        #     print(self.lineEdit4.text())
-        # if self.EnableBox5.isChecked() == True:
-        #     print(self.lineEdit5.text())
+        # 启动进程
+        for t in threads:
+            t.start()
+        # 守护进程
+        for t in threads:
+            t.join()
+
 
     def enable1(self, state):
         if state == Qt.Checked:
