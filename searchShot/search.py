@@ -110,51 +110,50 @@ class Example(QWidget):
         moreButton.toggled.connect(extension.setVisible)
 
         extensionLayout = QGridLayout()
-
-        extensionLayout.addWidget(self.label2, 1, 0)
-        extensionLayout.addWidget(self.lineEdit2, 1, 1)
-        extensionLayout.addWidget(self.EnableBox2, 1, 2)
-        extensionLayout.addWidget(self.label3, 2, 0)
-        extensionLayout.addWidget(self.lineEdit3, 2, 1)
-        extensionLayout.addWidget(self.EnableBox3, 2, 2)
-        extensionLayout.addWidget(self.label4, 3, 0)
-        extensionLayout.addWidget(self.lineEdit4, 3, 1)
-        extensionLayout.addWidget(self.EnableBox4, 3, 2)
-        extensionLayout.addWidget(self.label5, 4, 0)
-        extensionLayout.addWidget(self.lineEdit5, 4, 1)
-        extensionLayout.addWidget(self.EnableBox5, 4, 2)
+        extensionLayout.setContentsMargins(0, 0, 0, 0)
+        extensionLayout.addWidget(self.EnableBox2, 1, 0)
+        extensionLayout.addWidget(self.label2, 1, 1)
+        extensionLayout.addWidget(self.lineEdit2, 1, 2)
+        extensionLayout.addWidget(self.EnableBox3, 2, 0)
+        extensionLayout.addWidget(self.label3, 2, 1)
+        extensionLayout.addWidget(self.lineEdit3, 2, 2)
+        extensionLayout.addWidget(self.EnableBox4, 3, 0)
+        extensionLayout.addWidget(self.label4, 3, 1)
+        extensionLayout.addWidget(self.lineEdit4, 3, 2)
+        extensionLayout.addWidget(self.EnableBox5, 4, 0)
+        extensionLayout.addWidget(self.label5, 4, 1)
+        extensionLayout.addWidget(self.lineEdit5, 4, 2)
 
         extension.setLayout(extensionLayout)
 
-        topLeftLayout = QHBoxLayout()
-        topLeftLayout.addWidget(self.label1)
-        topLeftLayout.addWidget(self.lineEdit1)
-        topLeftLayout.addWidget(self.EnableBox1)
-        # topLeftLayout = QGridLayout()
-        # topLeftLayout.addWidget(label1, 0, 0, 1, 1)
-        # topLeftLayout.addWidget(lineEdit1, 0, 1, 1, 10)
-        # topLeftLayout.addWidget(self.EnableBox1, 0, 12)
+
+        first = QWidget()
+        firstLayout = QGridLayout()
+        firstLayout.setContentsMargins(0, 0, 0, 0)
+        firstLayout.addWidget(self.EnableBox1, 0, 0)
+        firstLayout.addWidget(self.label1, 0, 1)
+        firstLayout.addWidget(self.lineEdit1, 0, 2)
+
+        first.setLayout(firstLayout)
+
+        topLayout = QHBoxLayout()
+        topLayout.addWidget(buttonBox)
+        topLayout.addWidget(self.labelBrowser)
+        topLayout.addWidget(self.browserCombo)
+        topLayout.addWidget(self.labelSearch)
+        topLayout.addWidget(self.searchCombo)
+        topLayout.addWidget(self.labelNum)
+        topLayout.addWidget(self.spinbox)
 
 
-        leftLayout = QVBoxLayout()
-        leftLayout.addLayout(topLeftLayout)
-
-        mainLayout = QGridLayout()
+        # mainLayout = QGridLayout()
+        mainLayout = QVBoxLayout()
         # 关键性的参数设置
         mainLayout.setSizeConstraint(QLayout.SetFixedSize)
-
-        mainLayout.addLayout(leftLayout, 0, 0)
-        mainLayout.addWidget(buttonBox, 0, 1)
-
-        mainLayout.addWidget(self.labelBrowser, 0, 2)
-        mainLayout.addWidget(self.browserCombo, 0, 3)
-        mainLayout.addWidget(self.labelSearch, 0, 4)
-        mainLayout.addWidget(self.searchCombo, 0, 5)
-        mainLayout.addWidget(self.labelNum, 0, 6)
-        mainLayout.addWidget(self.spinbox, 0, 7)
-
-        mainLayout.addWidget(extension, 1, 0, 1, 2)
-        mainLayout.setRowStretch(2, 1)
+        mainLayout.addLayout(topLayout)
+        mainLayout.addWidget(first)
+        mainLayout.addWidget(extension)
+        # mainLayout.setRowStretch(2, 1)
 
 
         self.setLayout(mainLayout)
