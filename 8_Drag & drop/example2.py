@@ -57,7 +57,7 @@ class Example(QWidget):
     def dropEvent(self, e):
         position = e.pos()
         self.button.move(position)
-        
+
         # 指定放下的动作类型为moveAction
         e.setDropAction(Qt.MoveAction)
         e.accept()

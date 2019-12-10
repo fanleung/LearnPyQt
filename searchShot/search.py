@@ -239,7 +239,8 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
 
 
             else:
@@ -290,7 +291,8 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
 
 
     def handleKey2(self):
@@ -362,7 +364,8 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
 
 
             else:
@@ -413,7 +416,9 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
+
     def handleKey3(self):
         # 处理第一个
         if self.EnableBox3.isChecked() == True:
@@ -483,7 +488,8 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
 
 
             else:
@@ -534,7 +540,9 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
+
     def handleKey4(self):
         # 处理第一个
         if self.EnableBox4.isChecked() == True:
@@ -604,7 +612,8 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
 
 
             else:
@@ -655,7 +664,9 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
+
     def handleKey5(self):
         # 处理第一个
         if self.EnableBox5.isChecked() == True:
@@ -725,7 +736,8 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
 
 
             else:
@@ -776,7 +788,8 @@ class Example(QWidget):
                         return
                     else:
                         # 没有发生异常，则继续点击下一页
-                        nextPage.click()
+                        # nextPage.click()
+                        driver.execute_script("arguments[0].click();", nextPage)
 
 
     def searchWeb(self):

@@ -2,46 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbf311d-19d9-4f9d-972b-0d920b127001" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3_Layout_management/example1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Layout_management/example2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Layout_management/example3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_Layout_management/example4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Events_and_signals/example1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Events_and_signals/example2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Events_and_signals/example3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Events_and_signals/example4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Events_and_signals/example5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_Dialogs/example1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_Dialogs/example2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_Dialogs/example3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_Dialogs/example4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5_Dialogs/open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_Widgets/example1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_Widgets/example2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_Widgets/example3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_Widgets/example4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_Widgets/example5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6_Widgets/open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generateText/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/16k.pcm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/16k.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/voiceToText.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/warn-voiceToText.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/build/voiceToText/xref-voiceToText.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/dist/voiceToText.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/test.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/voiceToText.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voiceToText/voiceToText.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_Custom widgets/example1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_The Tetris game/example1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Painting/example1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Painting/example2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Painting/example3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Painting/example4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Painting/example5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9_Painting/example6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generateText/templet.py" beforeDir="false" afterPath="$PROJECT_DIR$/generateText/templet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_Drag &amp; drop/example2.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_Drag &amp; drop/example2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frp.py" beforeDir="false" afterPath="$PROJECT_DIR$/frp/frp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchShot/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchShot/search.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,65 +25,127 @@
     <session id="306312846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.147" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
+          <entry key="html" value="5" />
+          <entry key="jpeg" value="30" />
+          <entry key="jpg" value="49" />
           <entry key="js" value="1" />
+          <entry key="log" value="1" />
           <entry key="md" value="17" />
-          <entry key="png" value="7" />
-          <entry key="py" value="182" />
+          <entry key="png" value="98" />
+          <entry key="py" value="286" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="Image" value="7" />
+          <entry key="HTML" value="5" />
+          <entry key="Image" value="177" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="17" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="182" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="285" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="18" />
-          <entry key="html" value="3" />
+          <entry key="dummy" value="38" />
+          <entry key="html" value="4" />
           <entry key="md" value="48" />
-          <entry key="py" value="18751" />
+          <entry key="py" value="33259" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="4" />
           <entry key="Markdown" value="48" />
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="18751" />
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="33259" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47456574">
+    <splitter split-orientation="horizontal" split-proportion="0.47790915">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/6_Widgets/example3.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="551">
-                  <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+                <state relative-caret-position="-413">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
                   <folding>
+                    <element signature="e#158#226#0" expanded="true" />
                     <marker date="1574757658823" expanded="true" signature="322:327" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/8_Drag &amp; drop/example2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="432">
+                  <caret line="59" selection-start-line="59" selection-end-line="59" />
+                  <folding>
+                    <element signature="e#33#95#0" expanded="true" />
+                    <marker date="1575820625504" expanded="true" signature="203:208" ph="..." />
+                    <marker date="1575820625504" expanded="true" signature="952:957" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/9_Painting/example1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="392">
+                  <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#163#173#0" expanded="true" />
+                    <marker date="1575880939380" expanded="true" signature="357:362" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/9_Painting/example3.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="368">
+                  <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#125#174#0" expanded="true" />
+                    <marker date="1575906276815" expanded="true" signature="271:276" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/11_The Tetris game/example1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="383">
+                  <caret line="499" column="4" lean-forward="true" selection-start-line="499" selection-start-column="4" selection-end-line="499" selection-end-column="4" />
+                  <folding>
+                    <element signature="e#0#77#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -122,41 +156,90 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/6_Widgets/example2.py">
+            <entry file="file://$PROJECT_DIR$/7_Widgets II/example1.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="565">
-                  <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
+                <state relative-caret-position="153">
+                  <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
                   <folding>
-                    <element signature="e#85#157#0" expanded="true" />
-                    <marker date="1574670596954" expanded="true" signature="320:1840" ph="..." />
+                    <marker date="1574996528037" expanded="true" signature="285:290" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/6_Widgets/example4.py">
+            <entry file="file://$PROJECT_DIR$/9_Painting/example4.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="482">
-                  <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+                <state relative-caret-position="314">
+                  <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
                   <folding>
-                    <element signature="e#107#214#0" expanded="true" />
-                    <marker date="1574762250883" expanded="true" signature="325:330" ph="..." />
-                    <marker date="1574762250883" expanded="true" signature="1466:1468" ph="..." />
+                    <element signature="e#50#99#0" expanded="true" />
+                    <marker date="1575959824707" expanded="true" signature="259:264" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/6_Widgets/example5.py">
+            <entry file="file://$PROJECT_DIR$/test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="344">
-                  <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+                <state relative-caret-position="2668">
+                  <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
                   <folding>
-                    <element signature="e#45#163#0" expanded="true" />
-                    <marker date="1574770014748" expanded="true" signature="261:266" ph="..." />
+                    <element signature="e#4117#4147#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/9_Painting/example6.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="414">
+                  <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#89#138#0" expanded="true" />
+                    <marker date="1575961399727" expanded="true" signature="249:254" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/10_Custom widgets/example1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="438">
+                  <caret line="150" selection-start-line="150" selection-end-line="150" />
+                  <folding>
+                    <element signature="e#158#248#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtCore/pyqtSignal.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="327">
+                  <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QWidget.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="243">
+                  <caret line="794" column="8" selection-start-line="794" selection-start-column="8" selection-end-line="794" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtGui/QFont.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="235">
+                  <caret line="299" column="8" selection-start-line="299" selection-start-column="8" selection-end-line="299" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -184,6 +267,8 @@
       <find>imutils</find>
       <find>argparse</find>
       <find>QDate</find>
+      <find>conne</find>
+      <find>dragEnterEvent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,21 +277,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HelloWorld.py" />
-        <option value="$PROJECT_DIR$/HelloWorld/HelloWorld.py" />
-        <option value="$PROJECT_DIR$/1_First_programs/HelloWorld.py" />
-        <option value="$PROJECT_DIR$/HelloWorld_designer/HelloWorld_designer.py" />
-        <option value="$PROJECT_DIR$/HelloWorld_designer/HelloWorld.py" />
-        <option value="$PROJECT_DIR$/1_First_programs/example3.py" />
-        <option value="$PROJECT_DIR$/1_First_programs/example4.py" />
-        <option value="$PROJECT_DIR$/1_First_programs/example5.py" />
-        <option value="$PROJECT_DIR$/1_First_programs/example6.py" />
-        <option value="$PROJECT_DIR$/2_Menus_and_toolbars/example1.py" />
-        <option value="$PROJECT_DIR$/2_Menus_and_toolbars/example2.py" />
-        <option value="$PROJECT_DIR$/2_Menus_and_toolbars/index.html" />
-        <option value="$PROJECT_DIR$/2_Menus_and_toolbars/aa.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/HelloWorld_designer/readme.md" />
         <option value="$PROJECT_DIR$/2_Menus_and_toolbars/example3.py" />
         <option value="$PROJECT_DIR$/1_First_programs/example2.py" />
         <option value="$PROJECT_DIR$/2_Menus_and_toolbars/example4.py" />
@@ -224,27 +294,48 @@
         <option value="$PROJECT_DIR$/4_Events_and_signals/example4.py" />
         <option value="$PROJECT_DIR$/4_Events_and_signals/example5.py" />
         <option value="$PROJECT_DIR$/4_Events_and_signals/example3.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/5_Dialogs/example1.py" />
         <option value="$PROJECT_DIR$/5_Dialogs/example2.py" />
         <option value="$PROJECT_DIR$/5_Dialogs/example3.py" />
         <option value="$PROJECT_DIR$/5_Dialogs/example4.py" />
         <option value="$PROJECT_DIR$/6_Widgets/example1.py" />
         <option value="$PROJECT_DIR$/6_Widgets/example2.py" />
-        <option value="$PROJECT_DIR$/generateText/templet.py" />
         <option value="$PROJECT_DIR$/generateText/readme.md" />
-        <option value="$PROJECT_DIR$/frp.py" />
         <option value="$PROJECT_DIR$/6_Widgets/example3.py" />
         <option value="$PROJECT_DIR$/6_Widgets/example4.py" />
         <option value="$PROJECT_DIR$/6_Widgets/example5.py" />
+        <option value="$PROJECT_DIR$/frp.py" />
+        <option value="$PROJECT_DIR$/7_Widgets II/example1.py" />
+        <option value="$PROJECT_DIR$/generateText/templet.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/search.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/imgkit/imgkit.py" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/draw.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/7_Widgets II/example2.py" />
+        <option value="$PROJECT_DIR$/7_Widgets II/example3.py" />
+        <option value="$PROJECT_DIR$/7_Widgets II/example4.py" />
+        <option value="$PROJECT_DIR$/8_Drag &amp; drop/example1.py" />
+        <option value="$PROJECT_DIR$/8_Drag &amp; drop/example2.py" />
+        <option value="$PROJECT_DIR$/9_Painting/example2.py" />
+        <option value="$PROJECT_DIR$/9_Painting/example1.py" />
+        <option value="$PROJECT_DIR$/9_Painting/example3.py" />
+        <option value="$PROJECT_DIR$/searchShot/search.py" />
+        <option value="$PROJECT_DIR$/9_Painting/example4.py" />
+        <option value="$PROJECT_DIR$/9_Painting/example6.py" />
+        <option value="$PROJECT_DIR$/10_Custom widgets/example1.py" />
+        <option value="$PROJECT_DIR$/11_The Tetris game/example1.py" />
+        <option value="$PROJECT_DIR$/html2img.py" />
+        <option value="$PROJECT_DIR$/9_Painting/example5.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1139" />
-    <option name="y" value="279" />
-    <option name="width" value="3860" />
-    <option name="height" value="1100" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -254,7 +345,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,22 +356,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Fanleung\Python\LearnPyQt\7_Widgets II" />
       <recent name="E:\Fanleung\Python\LearnPyQt\6_Widgets" />
       <recent name="E:\Fanleung\Python\LearnPyQt\5_Dialogs" />
       <recent name="E:\Fanleung\Python\LearnPyQt" />
       <recent name="E:\Fanleung\Python\LearnPyQt\2_Menus_and_toolbars" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\HelloWorld_designer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Fanleung\Python\LearnPyQt\frp" />
+      <recent name="E:\Fanleung\Python\LearnPyQt\searchShot" />
       <recent name="E:\Fanleung\Python\LearnPyQt\HelloWorld_designer" />
       <recent name="E:\Fanleung\Python\LearnPyQt\HelloWorld" />
     </key>
@@ -299,7 +393,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.example5">
-    <configuration name="example2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="example1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,11 +401,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_Dialogs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_The Tetris game" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_Dialogs/example2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_The Tetris game/example1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,7 +414,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="example3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="example1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,11 +422,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_Widgets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10_Custom widgets" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_Widgets/example3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10_Custom widgets/example1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,11 +443,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_Widgets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Painting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_Widgets/example4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Painting/example4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,11 +464,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6_Widgets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Painting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6_Widgets/example5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Painting/example5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -383,7 +477,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="frp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="example6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -391,11 +485,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/9_Painting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/frp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_Painting/example6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -405,19 +499,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.frp" />
-      <item itemvalue="Python.example2" />
-      <item itemvalue="Python.example3" />
       <item itemvalue="Python.example4" />
       <item itemvalue="Python.example5" />
+      <item itemvalue="Python.example6" />
+      <item itemvalue="Python.example1" />
+      <item itemvalue="Python.example1 (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.example5" />
+        <item itemvalue="Python.example1 (1)" />
+        <item itemvalue="Python.example1" />
+        <item itemvalue="Python.example6" />
         <item itemvalue="Python.example4" />
-        <item itemvalue="Python.example3" />
-        <item itemvalue="Python.example2" />
-        <item itemvalue="Python.frp" />
       </list>
     </recent_temporary>
   </component>
@@ -439,15 +533,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12200436" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12472767" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.3298647" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3298647" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.21644121" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.21436004" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39958376" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -489,389 +583,391 @@
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3_Layout_management/example4.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QBoxLayout.py">
+    <entry file="file://$PROJECT_DIR$/searchShot/搜索1/python_1.jpeg" />
+    <entry file="file://$PROJECT_DIR$/searchShot/搜索1/2019-12-07 00-19-43_python test_1.jpeg" />
+    <entry file="file://$PROJECT_DIR$/searchShot/搜索1/2019-12-07 11-37-16_微信公众号平台_11.jpeg" />
+    <entry file="file://$PROJECT_DIR$/searchShot/搜索1/2019-12-07 11-37-16_微信公众号平台_1.jpeg" />
+    <entry file="file://$PROJECT_DIR$/searchShot/搜索1/2019-12-07 11-39-08_微信公众号平台_5.jpeg" />
+    <entry file="file://$PROJECT_DIR$/searchShot/搜索1/2019-12-07 11-39-08_微信公众号平台_1.jpeg" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/time.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="3956">
+          <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_First_programs/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_First_programs/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_First_programs/example3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_First_programs/example4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="12" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/fileopen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_Layout_management/example1.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/imgkit/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QLayout.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="12213">
+          <caret line="547" column="8" selection-start-line="547" selection-start-column="8" selection-end-line="547" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3_Layout_management/example2.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/imgkit/imgkit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="5704">
+          <caret line="254" column="13" selection-start-line="254" selection-start-column="13" selection-end-line="254" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4_Events_and_signals/example1.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/drawBot-3.122-py3.7.egg/drawBot/drawBotDrawingTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3_Layout_management/example3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/searchShot/搜索1/2019-12-07 14-27-01_python 深圳_3.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchShot/搜索1/2019-12-07 14-27-01_python 深圳_2.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchShot/搜索1/2019-12-07 14-27-01_python 深圳_1.jpeg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/3_Layout_management/example4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_Events_and_signals/rgb2hsv.py" />
-    <entry file="file://$PROJECT_DIR$/4_Events_and_signals/example3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="68">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#29#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5_Dialogs/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QAbstractButton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="283" column="8" selection-start-line="283" selection-start-column="8" selection-end-line="283" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_Events_and_signals/example5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_Events_and_signals/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="e#34#44#0" expanded="true" />
-            <marker date="1573126199418" expanded="true" signature="147:152" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtGui/QColor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="307" column="8" selection-start-line="307" selection-start-column="8" selection-end-line="307" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5_Dialogs/example4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="33" selection-start-line="33" selection-end-line="34" />
-          <folding>
-            <element signature="e#48#165#0" expanded="true" />
-            <marker date="1574663988442" expanded="true" signature="274:279" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5_Dialogs/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="e#139#257#0" expanded="true" />
-            <marker date="1574491176758" expanded="true" signature="336:341" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateText/Text.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateText/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWorld_designer/HelloWorld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_Events_and_signals/example4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#57#67#0" expanded="true" />
-            <marker date="1574164215958" expanded="true" signature="163:168" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/open.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="e#181#241#0" expanded="true" />
-            <marker date="1574667122616" expanded="true" signature="329:330" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateText/templet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="21" lean-forward="true" selection-end-line="63" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="31" selection-start-line="31" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_First_programs/example6.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_First_programs/example5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5_Dialogs/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="72" lean-forward="true" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
-          <folding>
-            <marker date="1574503468221" expanded="true" signature="188:189" ph="..." />
-            <marker date="1574503468221" expanded="true" signature="863:872" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5_Dialogs/example3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#29#169#0" expanded="true" />
-            <marker date="1574504466223" expanded="true" signature="206:211" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mm.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_First_programs/web.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/exit.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="77" selection-start-line="77" selection-end-line="81" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#113#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QMessageBox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="68" column="25" lean-forward="true" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-          <folding>
-            <element signature="e#85#157#0" expanded="true" />
-            <marker date="1574670596954" expanded="true" signature="320:1840" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/example4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-          <folding>
-            <element signature="e#107#214#0" expanded="true" />
-            <marker date="1574762250883" expanded="true" signature="325:330" ph="..." />
-            <marker date="1574762250883" expanded="true" signature="1466:1468" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/example3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding>
-            <marker date="1574757658823" expanded="true" signature="322:327" ph="..." />
+            <element signature="e#45#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/6_Widgets/example5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Widgets/example4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#45#163#0" expanded="true" />
-            <marker date="1574770014748" expanded="true" signature="261:266" ph="..." />
+            <element signature="e#107#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Widgets/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <folding>
+            <element signature="e#181#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Widgets/example2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Widgets/example3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-413">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#158#226#0" expanded="true" />
+            <marker date="1574757658823" expanded="true" signature="322:327" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_Layout_management/example3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_Layout_management/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QDialogButtonBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2934">
+          <caret line="233" column="8" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_Widgets II/example2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#53#63#0" expanded="true" />
+            <marker date="1575813705312" expanded="true" signature="159:531" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QLayout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_Layout_management/example2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#93#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateText/templet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_Widgets II/example4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#38#112#0" expanded="true" />
+            <marker date="1575817798672" expanded="true" signature="148:153" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QPushButton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="147" column="8" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_Drag &amp; drop/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding>
+            <element signature="e#266#341#0" expanded="true" />
+            <marker date="1575819043682" expanded="true" signature="427:428" ph="..." />
+            <marker date="1575819043682" expanded="true" signature="889:894" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8_Drag &amp; drop/example2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#33#95#0" expanded="true" />
+            <marker date="1575820625504" expanded="true" signature="203:208" ph="..." />
+            <marker date="1575820625504" expanded="true" signature="952:957" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_Painting/example2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="e#8#57#0" expanded="true" />
+            <marker date="1575882509013" expanded="true" signature="162:167" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_Painting/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="e#163#173#0" expanded="true" />
+            <marker date="1575880939380" expanded="true" signature="357:362" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_Widgets II/example3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="28" column="36" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="15" />
+          <folding>
+            <element signature="e#82#209#0" expanded="true" />
+            <marker date="1575814760446" expanded="true" signature="273:1204" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtGui/QColor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchShot/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="188" column="32" lean-forward="true" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
+          <folding>
+            <element signature="e#1#241#0" expanded="true" />
+            <marker date="1575948228356" expanded="true" signature="1172:1181" ph="..." />
+            <marker date="1575948228356" expanded="true" signature="5396:5405" ph="..." />
+            <marker date="1575948228356" expanded="true" signature="5396:5632" ph="..." />
+            <marker date="1575948228356" expanded="true" signature="5657:32923" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_Widgets II/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <marker date="1574996528037" expanded="true" signature="285:290" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtGui/QFont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="299" column="8" selection-start-line="299" selection-start-column="8" selection-end-line="299" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QWidget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="794" column="8" selection-start-line="794" selection-start-column="8" selection-end-line="794" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtCore/pyqtSignal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_Painting/example3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#125#174#0" expanded="true" />
+            <marker date="1575906276815" expanded="true" signature="271:276" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_Custom widgets/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+          <folding>
+            <element signature="e#158#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_Painting/example6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#89#138#0" expanded="true" />
+            <marker date="1575961399727" expanded="true" signature="249:254" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html2img.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_The Tetris game/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="499" column="4" lean-forward="true" selection-start-line="499" selection-start-column="4" selection-end-line="499" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_Painting/example5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+          <folding>
+            <element signature="e#79#128#0" expanded="true" />
+            <marker date="1575978758706" expanded="true" signature="248:253" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9_Painting/example4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <folding>
+            <element signature="e#50#99#0" expanded="true" />
+            <marker date="1575959824707" expanded="true" signature="259:264" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2668">
+          <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
+          <folding>
+            <element signature="e#4117#4147#0" expanded="true" />
           </folding>
         </state>
       </provider>

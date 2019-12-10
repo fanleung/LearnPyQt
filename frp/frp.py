@@ -5,7 +5,22 @@ import os
 
 # import win32api
 import os
+import psutil
+# import subprocess
+
 ID_string = ""
+
+
+
+# 判断进程是否在运行
+def judgeprocess(processname):
+    pl = psutil.pids()
+    for pid in pl:
+        if psutil.Process(pid).name() == processname:
+            return True
+    else:
+        return False
+
 
 class Example(QWidget):
 
@@ -18,9 +33,11 @@ class Example(QWidget):
         self.nameLabel = QLabel("输入边缘路由的ID:")
         self.nameLineEdit = QLineEdit(self)
 
+
         self.mainLayout = QGridLayout(self)
         self.mainLayout.addWidget(self.nameLabel, 0, 0)  # 控件名，行，列，占用行数，占用列数，对齐方式
         self.mainLayout.addWidget(self.nameLineEdit, 0, 1, 1, 1)
+
 
         self.btn = QPushButton('开启', self)
         self.btn.move(100, 220)
@@ -39,10 +56,13 @@ class Example(QWidget):
                                     "ID不符合长度要求, 请检查")
         # todo 跳出提示框，完成
         else:
-            # 关闭程序
-            os.system("taskkill /F /IM frpc.exe")
+            if judgeprocess('frpc.exe') == True:
+                # 关闭程序 , 这里调用了 system ，打包需要打开窗口，改为 subprocess
+                os.system("taskkill /F /IM frpc.exe")
+                # self.process.terminate()
 
-            # 这里生成文件
+
+                # 这里生成文件
             if os.path.exists("frpc.ini"):
                 os.remove("frpc.ini")
             file = open("frpc.ini", 'w')
@@ -69,8 +89,9 @@ class Example(QWidget):
             # wechat
             # win32api.ShellExecute(0, 'open', r'"frpc.exe"', '', '', 1)
             os.popen("frpc.exe")
-
-
+            # self.process = subprocess.Popen("frpc.exe", shell=True)
+            QMessageBox.information(self, "Information",
+                                    "已运行")
 
 
 
