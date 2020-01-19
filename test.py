@@ -172,16 +172,16 @@
 #     main()
 
 
-from selenium import webdriver
-from PIL import Image
-import time
-
-driver = webdriver.Edge()
-time.sleep(1)
-# driver.maximize_window()
-driver.get('http://www.baidu.com/')
-driver.find_element_by_id("kw").send_keys("青岛 关键字")
-driver.find_element_by_id("su").click()
+# from selenium import webdriver
+# from PIL import Image
+# import time
+#
+# driver = webdriver.Edge()
+# time.sleep(1)
+# # driver.maximize_window()
+# driver.get('http://www.baidu.com/')
+# driver.find_element_by_id("kw").send_keys("青岛 关键字")
+# driver.find_element_by_id("su").click()
 
 # input = driver.find_element_by_link_text("下一页")
 # print(input)
@@ -300,4 +300,20 @@ driver.find_element_by_id("su").click()
 #     Image.fromarray(base_mat).save('screenshot.png')
 
 
+# import matplotlib.pyplot as plt
+# import tensorflow as tf
+#
+# image_raw_data = tf.gfile.FastGFile('test.jpg', 'rb').read()
+#
+# with tf.Session() as sess:
+#     img_data = tf.image.decode_jpeg(image_raw_data)
+#     print(img_data.eval())
+#
+#     plt.imshow(img_data.eval())
+#     plt.show()
+#
+#     encoded_image = tf.image.encode_jpeg(img_data)
+#     with tf.gfile.GFile("test1.jpg", "wb") as f:
+#         f.write(encoded_image.eval())
 
+import tensorflow

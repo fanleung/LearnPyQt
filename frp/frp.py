@@ -4,7 +4,6 @@ import sys
 import os
 
 # import win32api
-import os
 import psutil
 # import subprocess
 

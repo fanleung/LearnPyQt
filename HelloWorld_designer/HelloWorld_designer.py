@@ -12,11 +12,15 @@ class Ui_From(object):
     def setupUi(self, From):
         From.setObjectName("From")
         From.resize(250, 150)
+        self.label = QtWidgets.QLabel(From)
+        self.label.setGeometry(QtCore.QRect(90, 50, 71, 16))
+        # self.label.setObjectName("label")
 
         self.retranslateUi(From)
-        QtCore.QMetaObject.connectSlotsByName(From)
+        # QtCore.QMetaObject.connectSlotsByName(From)
 
     def retranslateUi(self, From):
         _translate = QtCore.QCoreApplication.translate
         From.setWindowTitle(_translate("From", "Simple"))
-
+        self.label.setText(_translate("From", "hello world"))
+        pass
