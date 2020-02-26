@@ -3,13 +3,35 @@ import serial
 import serial.tools.list_ports
 from PyQt5.QtSql import QSqlQuery
 from PyQt5 import QtWidgets, QtSql, QtGui, QtCore
-from PyQt5.QtWidgets import QMessageBox
+from PyQt5.QtWidgets import QMessageBox, QLineEdit
 from PyQt5.QtCore import QTimer
 from ui_serialSQLite import Ui_Form
+from ui_login import Ui_login
 import sys
 import time
 
+class LoginUI(QtWidgets.QWidget, Ui_login):
+    def __init__(self):
+        super().__init__()
+        self.setupUi(self)
+        self.setWindowTitle("系统登陆")
+        self.initUI()
 
+    def initUI(self):
+        # 点击取消关闭窗口
+        self.pushButton_2.clicked.connect(self.close)
+        self.pushButton.clicked.connect(self.CheckAccount)
+        # 设置密码不可见
+        self.lineEdit_2.setEchoMode(QLineEdit.Password)
+
+    # 核对密码是否正确
+    def CheckAccount(self):
+        if self.lineEdit.text() == "邹小姨" and self.lineEdit_2.text() == "12345":
+            self.close()    # 关闭登陆界面
+            ex.show()
+        else:
+            QMessageBox.information(self, "Information",
+                                    "账号或密码错误")
 
 
 class Example(QtWidgets.QWidget, Ui_Form):
@@ -334,6 +356,7 @@ class Example(QtWidgets.QWidget, Ui_Form):
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
+    login = LoginUI()
+    login.show()
     ex = Example()
-    ex.show()
     sys.exit(app.exec_())

@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['serialTest.py'],
-             pathex=['E:\\Fanleung\\Python\\LearnPyQt\\SerialSQLite'],
+             pathex=['E:\\Fanleung\\Python\\LearnPyQt\\generateText'],
              binaries=[],
              datas=[],
              hiddenimports=[],
