@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbf311d-19d9-4f9d-972b-0d920b127001" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SerialPlot/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SerialPlot/instaspin.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SerialPlot/sci_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SerialPlot/sci_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SerialPlot/sci_tool.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SerialPlot/setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SerialSQLite/serialTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/SerialSQLite/serialTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SerialSQLite/test.db" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +49,9 @@
           <entry key="jpg" value="50" />
           <entry key="js" value="1" />
           <entry key="log" value="1" />
-          <entry key="md" value="18" />
+          <entry key="md" value="19" />
           <entry key="png" value="98" />
-          <entry key="py" value="348" />
+          <entry key="py" value="368" />
           <entry key="txt" value="5" />
           <entry key="ui" value="4" />
         </counts>
@@ -56,9 +61,9 @@
           <entry key="HTML" value="5" />
           <entry key="Image" value="178" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="18" />
+          <entry key="Markdown" value="19" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="347" />
+          <entry key="Python" value="367" />
           <entry key="Qt UI file" value="4" />
           <entry key="SQL" value="7" />
           <entry key="Scratch" value="1" />
@@ -69,7 +74,7 @@
           <entry key="dummy" value="44" />
           <entry key="html" value="4" />
           <entry key="md" value="48" />
-          <entry key="py" value="43334" />
+          <entry key="py" value="43417" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -77,35 +82,59 @@
           <entry key="HTML" value="4" />
           <entry key="Markdown" value="48" />
           <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="43334" />
+          <entry key="Python" value="43417" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46687117">
+    <splitter split-orientation="horizontal" split-proportion="0.5380368">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/SerialSQLite/serialTest.py">
+            <entry file="file://$PROJECT_DIR$/SerialPlot/sci_main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+                <state relative-caret-position="293">
+                  <caret line="288" column="46" lean-forward="true" selection-start-line="288" selection-start-column="46" selection-end-line="288" selection-end-column="46" />
                   <folding>
-                    <element signature="e#0#10#0" expanded="true" />
-                    <marker date="1582704766861" expanded="true" signature="356:1024" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="515:727" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="1024:1025" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="1609:1618" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="2756:2757" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="2757:2766" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="3158:3167" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="8442:8451" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="10545:10554" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="10545:10684" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="10683:10684" ph="..." />
-                    <marker date="1582704766861" expanded="true" signature="11494:11495" ph="..." />
+                    <element signature="e#72#107#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/serial/serialutil.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="244">
+                  <caret line="263" selection-start-line="263" selection-end-line="263" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/SerialPlot/sci_tool.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-4566">
+                  <caret line="183" column="49" lean-forward="true" selection-start-line="183" selection-start-column="49" selection-end-line="183" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/7_Widgets II/example1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="206">
+                  <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="161">
+                  <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -123,29 +152,38 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/searchShot/search.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="81" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="81" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_serialSQLite.py">
+            <entry file="file://$PROJECT_DIR$/SerialSQLite/serialTest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="328">
-                  <caret line="310" column="54" selection-start-line="310" selection-start-column="54" selection-end-line="311" selection-end-column="65" />
+                <state relative-caret-position="506">
+                  <caret line="127" column="27" lean-forward="true" selection-start-line="127" selection-start-column="27" selection-end-line="128" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                    <marker date="1582876279385" expanded="true" signature="356:1024" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="515:727" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="1024:1025" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="1609:1618" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="2756:2757" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="2757:2766" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="3158:3167" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="8471:8480" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="10574:10583" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="10574:10713" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="10712:10713" ph="..." />
+                    <marker date="1582876279385" expanded="true" signature="11523:11524" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_login.py">
+            <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/fileopen.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-184">
-                  <caret line="10" column="14" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
+                <state relative-caret-position="319">
+                  <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#0#92#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -179,9 +217,15 @@
       <find>s1__lb_1</find>
       <find>s1__box_2</find>
       <find>setupUi</find>
+      <find>icon</find>
+      <find>QtGui</find>
     </findStrings>
+    <replaceStrings>
+      <replace>QtWidgets</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>E:\Fanleung\Python\LearnPyQt\SerialSQLite</dir>
+      <dir>E:\Fanleung\Python\LearnPyQt</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -190,8 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/4_Events_and_signals/example1.py" />
-        <option value="$PROJECT_DIR$/4_Events_and_signals/example2.py" />
         <option value="$PROJECT_DIR$/4_Events_and_signals/rgb2hsv.py" />
         <option value="$PROJECT_DIR$/4_Events_and_signals/example4.py" />
         <option value="$PROJECT_DIR$/4_Events_and_signals/example5.py" />
@@ -240,13 +282,15 @@
         <option value="$PROJECT_DIR$/SerialDemo/serialDemo.py" />
         <option value="$PROJECT_DIR$/SerialSQLite/SerialSQLite.py" />
         <option value="$PROJECT_DIR$/SerialSQLite/ui_serialSQLite.py" />
+        <option value="$PROJECT_DIR$/SerialPlot/sci_tool.py" />
         <option value="$PROJECT_DIR$/SerialSQLite/serialTest.py" />
+        <option value="$PROJECT_DIR$/SerialPlot/sci_main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
+    <option name="x" value="1848" />
+    <option name="y" value="81" />
     <option name="width" value="1874" />
     <option name="height" value="1096" />
   </component>
@@ -268,7 +312,17 @@
             <path>
               <item name="LearnPyQt" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPyQt" type="462c0819:PsiDirectoryNode" />
-              <item name="generateText" type="462c0819:PsiDirectoryNode" />
+              <item name="2_Menus_and_toolbars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPyQt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPyQt" type="462c0819:PsiDirectoryNode" />
+              <item name="7_Widgets II" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPyQt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPyQt" type="462c0819:PsiDirectoryNode" />
+              <item name="SerialPlot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnPyQt" type="b2602c69:ProjectViewProjectNode" />
@@ -290,19 +344,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Fanleung\Python\LearnPyQt\SerialPlot" />
+      <recent name="E:\Fanleung\Python\LearnPyQt\SerialSQLite" />
+      <recent name="E:\Fanleung\Python\LearnPyQt\faceRecognition" />
+      <recent name="E:\Fanleung\Python\LearnPyQt\7_Widgets II" />
+      <recent name="E:\Fanleung\Python\LearnPyQt\6_Widgets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Fanleung\Python\LearnPyQt\SerialDemo" />
       <recent name="E:\Fanleung\Python\LearnPyQt\frp" />
       <recent name="E:\Fanleung\Python\LearnPyQt\searchShot" />
       <recent name="E:\Fanleung\Python\LearnPyQt\HelloWorld_designer" />
       <recent name="E:\Fanleung\Python\LearnPyQt\HelloWorld" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Fanleung\Python\LearnPyQt\SerialSQLite" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\faceRecognition" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\7_Widgets II" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\6_Widgets" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\5_Dialogs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,49 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.serialTest (1)">
-    <configuration name="HelloWorld" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPyQt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HelloWorld_designer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HelloWorld_designer/HelloWorld.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="HelloWorld_designer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPyQt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HelloWorld_designer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HelloWorld_designer/HelloWorld_designer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.sci_main">
     <configuration name="SerialSQLite" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -373,6 +385,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SerialSQLite/SerialSQLite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sci_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPyQt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SerialPlot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SerialPlot/sci_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sci_tool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPyQt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SerialPlot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SerialPlot/sci_tool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -425,18 +479,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.serialTest (1)" />
-      <item itemvalue="Python.HelloWorld_designer" />
-      <item itemvalue="Python.HelloWorld" />
       <item itemvalue="Python.serialDemo (1)" />
       <item itemvalue="Python.SerialSQLite" />
+      <item itemvalue="Python.sci_main" />
+      <item itemvalue="Python.sci_tool" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sci_main" />
         <item itemvalue="Python.serialTest (1)" />
+        <item itemvalue="Python.sci_tool" />
         <item itemvalue="Python.SerialSQLite" />
         <item itemvalue="Python.serialDemo (1)" />
-        <item itemvalue="Python.HelloWorld" />
-        <item itemvalue="Python.HelloWorld_designer" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +508,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -517,93 +571,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/8_Drag &amp; drop/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8_Drag &amp; drop/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9_Painting/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/9_Painting/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_Widgets II/example3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="28" column="36" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtGui/QColor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="916" selection-start-line="916" selection-end-line="916" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_Widgets II/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtGui/QFont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="299" column="8" selection-start-line="299" selection-start-column="8" selection-end-line="299" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtCore/pyqtSignal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_Custom widgets/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draw.py" />
-    <entry file="file://$PROJECT_DIR$/html2img.py" />
-    <entry file="file://$PROJECT_DIR$/out.jpg" />
-    <entry file="file://$PROJECT_DIR$/9_Painting/example5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9_Painting/example4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -797,26 +764,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchShot/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="81" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_serialSQLite.ui">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SerialSQLite/SerialSQLite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2892">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_login.py">
@@ -826,10 +776,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SerialPlot/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerialPlot/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_serialSQLite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="310" column="54" selection-start-line="310" selection-start-column="54" selection-end-line="311" selection-end-column="65" />
+        <state relative-caret-position="296">
+          <caret line="308" column="37" selection-start-line="308" selection-start-column="37" selection-end-line="308" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchShot/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="81" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerialSQLite/SerialSQLite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -840,24 +818,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/6_Widgets/example1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Widgets/example2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Widgets/example3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Widgets/example4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Widgets/example5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_Custom widgets/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3358">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_Widgets II/example2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#53#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_Widgets II/example1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/fileopen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerialPlot/sci_tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4566">
+          <caret line="183" column="49" lean-forward="true" selection-start-line="183" selection-start-column="49" selection-end-line="183" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/serial/serialutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SerialSQLite/serialTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="506">
+          <caret line="127" column="27" lean-forward="true" selection-start-line="127" selection-start-column="27" selection-end-line="128" selection-end-column="15" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1582704766861" expanded="true" signature="356:1024" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="515:727" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="1024:1025" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="1609:1618" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="2756:2757" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="2757:2766" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="3158:3167" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="8442:8451" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="10545:10554" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="10545:10684" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="10683:10684" ph="..." />
-            <marker date="1582704766861" expanded="true" signature="11494:11495" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="356:1024" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="515:727" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="1024:1025" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="1609:1618" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="2756:2757" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="2757:2766" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="3158:3167" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="8471:8480" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="10574:10583" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="10574:10713" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="10712:10713" ph="..." />
+            <marker date="1582876279385" expanded="true" signature="11523:11524" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerialPlot/sci_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="288" column="46" lean-forward="true" selection-start-line="288" selection-start-column="46" selection-end-line="288" selection-end-column="46" />
+          <folding>
+            <element signature="e#72#107#0" expanded="true" />
           </folding>
         </state>
       </provider>

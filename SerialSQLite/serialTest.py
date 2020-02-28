@@ -118,6 +118,7 @@ class Example(QtWidgets.QWidget, Ui_Form):
     # 打开串口
     def port_open(self):
         self.ser.port = self.s1__box_2.currentText()
+        print(self.ser.port)
         self.ser.baudrate = int(self.s1__box_3.currentText())
         self.ser.bytesize = int(self.s1__box_4.currentText())
         self.ser.stopbits = int(self.s1__box_6.currentText())
