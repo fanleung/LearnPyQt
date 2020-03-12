@@ -1,0 +1,111 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'ui_server.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(679, 451)
+        self.formGroupBox = QtWidgets.QGroupBox(Form)
+        self.formGroupBox.setGeometry(QtCore.QRect(10, 10, 251, 151))
+        self.formGroupBox.setObjectName("formGroupBox")
+        self.widget = QtWidgets.QWidget(self.formGroupBox)
+        self.widget.setGeometry(QtCore.QRect(11, 23, 231, 121))
+        self.widget.setObjectName("widget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.widget)
+        self.verticalLayout.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.s1__lb_1 = QtWidgets.QLabel(self.widget)
+        self.s1__lb_1.setObjectName("s1__lb_1")
+        self.horizontalLayout.addWidget(self.s1__lb_1)
+        self.lineEdit = QtWidgets.QLineEdit(self.widget)
+        self.lineEdit.setObjectName("lineEdit")
+        self.horizontalLayout.addWidget(self.lineEdit)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.s1__lb_2 = QtWidgets.QLabel(self.widget)
+        self.s1__lb_2.setObjectName("s1__lb_2")
+        self.horizontalLayout_2.addWidget(self.s1__lb_2)
+        self.lineEdit_2 = QtWidgets.QLineEdit(self.widget)
+        self.lineEdit_2.setObjectName("lineEdit_2")
+        self.horizontalLayout_2.addWidget(self.lineEdit_2)
+        self.verticalLayout.addLayout(self.horizontalLayout_2)
+        self.horizontalLayout_3 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_3.setObjectName("horizontalLayout_3")
+        self.socket_connect_button = QtWidgets.QPushButton(self.widget)
+        self.socket_connect_button.setObjectName("socket_connect_button")
+        self.horizontalLayout_3.addWidget(self.socket_connect_button)
+        self.socket_disconnect_button = QtWidgets.QPushButton(self.widget)
+        self.socket_disconnect_button.setObjectName("socket_disconnect_button")
+        self.horizontalLayout_3.addWidget(self.socket_disconnect_button)
+        self.verticalLayout.addLayout(self.horizontalLayout_3)
+        self.verticalGroupBox = QtWidgets.QGroupBox(Form)
+        self.verticalGroupBox.setGeometry(QtCore.QRect(270, 10, 401, 431))
+        self.verticalGroupBox.setObjectName("verticalGroupBox")
+        self.s2__receive_text = QtWidgets.QTextBrowser(self.verticalGroupBox)
+        self.s2__receive_text.setGeometry(QtCore.QRect(11, 49, 379, 371))
+        self.s2__receive_text.setObjectName("s2__receive_text")
+        self.hex_receive = QtWidgets.QCheckBox(self.verticalGroupBox)
+        self.hex_receive.setGeometry(QtCore.QRect(11, 23, 65, 16))
+        self.hex_receive.setObjectName("hex_receive")
+        self.rece_clear_button = QtWidgets.QPushButton(self.verticalGroupBox)
+        self.rece_clear_button.setGeometry(QtCore.QRect(100, 20, 75, 23))
+        self.rece_clear_button.setObjectName("rece_clear_button")
+        self.verticalGroupBox_2 = QtWidgets.QGroupBox(Form)
+        self.verticalGroupBox_2.setGeometry(QtCore.QRect(10, 170, 251, 231))
+        self.verticalGroupBox_2.setObjectName("verticalGroupBox_2")
+        self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.verticalGroupBox_2)
+        self.verticalLayout_2.setContentsMargins(10, 10, 10, 10)
+        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.s3__send_text = QtWidgets.QTextEdit(self.verticalGroupBox_2)
+        self.s3__send_text.setObjectName("s3__send_text")
+        self.verticalLayout_2.addWidget(self.s3__send_text)
+        self.data_send_button = QtWidgets.QPushButton(Form)
+        self.data_send_button.setGeometry(QtCore.QRect(110, 410, 61, 31))
+        self.data_send_button.setObjectName("data_send_button")
+        self.send_clear_button = QtWidgets.QPushButton(Form)
+        self.send_clear_button.setGeometry(QtCore.QRect(200, 410, 61, 31))
+        self.send_clear_button.setObjectName("send_clear_button")
+        self.hex_send = QtWidgets.QCheckBox(Form)
+        self.hex_send.setGeometry(QtCore.QRect(20, 420, 71, 16))
+        self.hex_send.setObjectName("hex_send")
+        self.verticalGroupBox.raise_()
+        self.verticalGroupBox_2.raise_()
+        self.formGroupBox.raise_()
+        self.data_send_button.raise_()
+        self.send_clear_button.raise_()
+        self.hex_send.raise_()
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "Form"))
+        self.formGroupBox.setTitle(_translate("Form", "TCP 客户端配置"))
+        self.s1__lb_1.setText(_translate("Form", "目标IP:"))
+        self.s1__lb_2.setText(_translate("Form", "目标端口："))
+        self.socket_connect_button.setText(_translate("Form", "连接"))
+        self.socket_disconnect_button.setText(_translate("Form", "断开"))
+        self.verticalGroupBox.setTitle(_translate("Form", "接受区"))
+        self.hex_receive.setText(_translate("Form", "Hex接收"))
+        self.rece_clear_button.setText(_translate("Form", "清除"))
+        self.verticalGroupBox_2.setTitle(_translate("Form", "发送区"))
+        self.s3__send_text.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'SimSun\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
+        self.data_send_button.setText(_translate("Form", "发送"))
+        self.send_clear_button.setText(_translate("Form", "清除"))
+        self.hex_send.setText(_translate("Form", "Hex发送"))
+

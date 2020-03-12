@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbf311d-19d9-4f9d-972b-0d920b127001" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/douban_book/douban_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_data/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_data/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_data/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_data/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_data/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_data/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_data/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_data/gym.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gym_data/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCP/client/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCP/client/stopThreading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCP/client/ui_client.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCP/server/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCP/server/stopThreading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TCP/server/ui_server.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/byopencv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/gym_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/myutils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/ocr_template_match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gym_data/real.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentCard/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentCard/ui_student.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gym_data/gym.py" beforeDir="false" afterPath="$PROJECT_DIR$/gym_data/gym.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gym_data/test.sqlite" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +34,9 @@
     <session id="306312846">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -39,10 +49,11 @@
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,25 +61,27 @@
           <entry key="db" value="10" />
           <entry key="html" value="5" />
           <entry key="jpeg" value="30" />
-          <entry key="jpg" value="67" />
+          <entry key="jpg" value="120" />
           <entry key="js" value="1" />
           <entry key="log" value="1" />
-          <entry key="md" value="19" />
-          <entry key="png" value="100" />
-          <entry key="py" value="381" />
+          <entry key="md" value="20" />
+          <entry key="png" value="126" />
+          <entry key="py" value="484" />
+          <entry key="pyi" value="1" />
           <entry key="txt" value="7" />
-          <entry key="ui" value="5" />
+          <entry key="ui" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="5" />
-          <entry key="Image" value="197" />
+          <entry key="Image" value="276" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="19" />
+          <entry key="Markdown" value="20" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="380" />
-          <entry key="Qt UI file" value="5" />
+          <entry key="Python" value="483" />
+          <entry key="PythonStub" value="1" />
+          <entry key="Qt UI file" value="8" />
           <entry key="SQL" value="10" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -76,57 +89,42 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="13" />
-          <entry key="dummy" value="44" />
+          <entry key="dummy" value="72" />
           <entry key="html" value="4" />
           <entry key="md" value="48" />
-          <entry key="py" value="43811" />
+          <entry key="py" value="51510" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="4" />
           <entry key="Markdown" value="48" />
-          <entry key="PLAIN_TEXT" value="44" />
-          <entry key="Python" value="43824" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="Python" value="51523" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.37730062">
+    <splitter split-orientation="horizontal" split-proportion="0.7730627">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SerialSQLite/serialTest.py">
+            <entry file="file://$PROJECT_DIR$/TCP/server/stopThreading.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1057">
-                  <caret line="360" column="16" lean-forward="true" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#10#0" expanded="true" />
-                    <marker date="1582876279385" expanded="true" signature="356:1024" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="515:727" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="1024:1025" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="1609:1618" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="2756:2757" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="2757:2766" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="3158:3167" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="8471:8480" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="10574:10583" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="10574:10713" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="10712:10713" ph="..." />
-                    <marker date="1582876279385" expanded="true" signature="11523:11524" ph="..." />
-                  </folding>
+                <state relative-caret-position="345">
+                  <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/gym_data/test.py">
+            <entry file="file://$PROJECT_DIR$/TCP/client/client.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+                <state relative-caret-position="304">
+                  <caret line="133" column="76" lean-forward="true" selection-start-line="133" selection-start-column="76" selection-end-line="133" selection-end-column="76" />
                   <folding>
-                    <element signature="e#0#33#0" expanded="true" />
+                    <element signature="e#0#10#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -135,72 +133,15 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_serialSQLite.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="304" column="60" lean-forward="true" selection-start-line="304" selection-start-column="60" selection-end-line="304" selection-end-column="60" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SerialSQLite/SerialSQLite.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3045">
-                  <caret line="10" selection-end-line="203" />
-                  <folding>
-                    <element signature="e#0#33#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/gym_data/gym.py">
+            <entry file="file://$PROJECT_DIR$/TCP/server/server.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3358">
-                  <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+                <state relative-caret-position="424">
+                  <caret line="155" column="4" selection-start-line="155" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
                   <folding>
-                    <element signature="e#776#822#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtSql.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="1506" column="12" lean-forward="true" selection-start-line="1506" selection-start-column="12" selection-end-line="1506" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_login.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-147">
-                  <caret line="10" column="14" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_serialSQLite.ui">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-16914" />
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/fileopen.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-                  <folding>
-                    <element signature="e#0#92#0" expanded="true" />
+                    <element signature="e#0#10#0" expanded="true" />
+                    <marker date="1584032793931" expanded="true" signature="1214:1330" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -237,6 +178,12 @@
       <find>setupUi</find>
       <find>icon</find>
       <find>QtGui</find>
+      <find>tesseract_cmd</find>
+      <find>Filter</find>
+      <find>sort_contours</find>
+      <find>stop</find>
+      <find>threads</find>
+      <find>s2__receive_text</find>
     </findStrings>
     <replaceStrings>
       <replace>QtWidgets</replace>
@@ -252,20 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/5_Dialogs/example1.py" />
-        <option value="$PROJECT_DIR$/5_Dialogs/example2.py" />
-        <option value="$PROJECT_DIR$/5_Dialogs/example3.py" />
-        <option value="$PROJECT_DIR$/5_Dialogs/example4.py" />
-        <option value="$PROJECT_DIR$/6_Widgets/example1.py" />
-        <option value="$PROJECT_DIR$/6_Widgets/example2.py" />
-        <option value="$PROJECT_DIR$/generateText/readme.md" />
-        <option value="$PROJECT_DIR$/6_Widgets/example3.py" />
-        <option value="$PROJECT_DIR$/6_Widgets/example4.py" />
-        <option value="$PROJECT_DIR$/6_Widgets/example5.py" />
-        <option value="$PROJECT_DIR$/frp.py" />
-        <option value="$PROJECT_DIR$/7_Widgets II/example1.py" />
-        <option value="$PROJECT_DIR$/generateText/templet.py" />
-        <option value="$PROJECT_DIR$/test1.py" />
         <option value="$PROJECT_DIR$/search.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/imgkit/imgkit.py" />
         <option value="$PROJECT_DIR$/test.html" />
@@ -302,12 +235,26 @@
         <option value="$PROJECT_DIR$/douban_book/douban_book.py" />
         <option value="$PROJECT_DIR$/gym_data/utils.py" />
         <option value="$PROJECT_DIR$/gym_data/test.py" />
+        <option value="$PROJECT_DIR$/gym_data/opencv.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pytesseract/pytesseract.py" />
+        <option value="$PROJECT_DIR$/byopencv.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/imutils/contours.py" />
+        <option value="$PROJECT_DIR$/gym_data/test2.py" />
+        <option value="$PROJECT_DIR$/gym_data/myutils.py" />
+        <option value="$PROJECT_DIR$/gym_data/byopencv.py" />
         <option value="$PROJECT_DIR$/gym_data/gym.py" />
+        <option value="$PROJECT_DIR$/gym_data/gym_main.py" />
+        <option value="$PROJECT_DIR$/studentCard/main.py" />
+        <option value="$PROJECT_DIR$/gym_data/real.py" />
+        <option value="$PROJECT_DIR$/gym_data/ocr_template_match.py" />
+        <option value="$PROJECT_DIR$/TCP/client/stopThreading.py" />
+        <option value="$PROJECT_DIR$/TCP/server/server.py" />
+        <option value="$PROJECT_DIR$/TCP/client/client.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1874" />
     <option name="height" value="1096" />
@@ -331,12 +278,24 @@
             <path>
               <item name="LearnPyQt" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPyQt" type="462c0819:PsiDirectoryNode" />
-              <item name="gym_data" type="462c0819:PsiDirectoryNode" />
+              <item name="searchShot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnPyQt" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPyQt" type="462c0819:PsiDirectoryNode" />
-              <item name="SerialSQLite" type="462c0819:PsiDirectoryNode" />
+              <item name="TCP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPyQt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPyQt" type="462c0819:PsiDirectoryNode" />
+              <item name="TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPyQt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPyQt" type="462c0819:PsiDirectoryNode" />
+              <item name="TCP" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,25 +305,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Fanleung/Python/LearnPyQt/searchShot/search.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Fanleung/Python/LearnPyQt/TCP/server/stopThreading.py" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="D:/360安全浏览器下载/search" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Fanleung\Python\LearnPyQt\TCP\server" />
+      <recent name="E:\Fanleung\Python\LearnPyQt\TCP\client" />
+      <recent name="E:\Fanleung\Python\LearnPyQt\gym_data" />
+      <recent name="E:\Fanleung\Python\LearnPyQt\studentCard" />
+      <recent name="E:\Fanleung\Python\LearnPyQt" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Fanleung\Python\LearnPyQt\studentCard" />
+      <recent name="E:\Fanleung\Python\LearnPyQt\gym_data" />
+      <recent name="E:\Fanleung\Python\LearnPyQt" />
       <recent name="E:\Fanleung\Python\LearnPyQt\SerialDemo" />
       <recent name="E:\Fanleung\Python\LearnPyQt\frp" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\searchShot" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\HelloWorld_designer" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\HelloWorld" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Fanleung\Python\LearnPyQt\gym_data" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\SerialPlot" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\SerialSQLite" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\faceRecognition" />
-      <recent name="E:\Fanleung\Python\LearnPyQt\7_Widgets II" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,8 +338,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gym">
-    <configuration name="douban_book" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.server">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,11 +347,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/douban_book" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TCP/client" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/douban_book/douban_book.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TCP/client/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,7 +360,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gym" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="example3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPyQt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5_Dialogs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5_Dialogs/example3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ocr_template_match" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,7 +393,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gym_data/gym.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gym_data/ocr_template_match.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -422,7 +402,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sci_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="serialDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -430,11 +410,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SerialPlot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SerialDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SerialPlot/sci_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SerialDemo/serialDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -443,7 +423,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="serialTest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPyQt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -451,32 +431,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SerialSQLite" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TCP/server" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SerialSQLite/serialTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPyQt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gym_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gym_data/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TCP/server/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -486,19 +445,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.serialTest (1)" />
-      <item itemvalue="Python.sci_main" />
-      <item itemvalue="Python.douban_book" />
-      <item itemvalue="Python.gym" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.client" />
+      <item itemvalue="Python.serialDemo" />
+      <item itemvalue="Python.ocr_template_match" />
+      <item itemvalue="Python.example3" />
+      <item itemvalue="Python.server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gym" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.douban_book" />
-        <item itemvalue="Python.serialTest (1)" />
-        <item itemvalue="Python.sci_main" />
+        <item itemvalue="Python.server" />
+        <item itemvalue="Python.client" />
+        <item itemvalue="Python.serialDemo" />
+        <item itemvalue="Python.example3" />
+        <item itemvalue="Python.ocr_template_match" />
       </list>
     </recent_temporary>
   </component>
@@ -525,11 +484,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4984472" visible="true" weight="0.11220044" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4984472" visible="true" weight="0.114379086" />
       <window_info id="Structure" order="2" sideWeight="0.5015528" side_tool="true" weight="0.11220044" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3298647" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -537,7 +496,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3298647" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.3298647" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.21644121" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.1987513" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39958376" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -584,328 +543,302 @@
           <line>3</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/searchShot/search.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QWidget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="570" column="8" selection-start-line="570" selection-start-column="8" selection-end-line="570" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_First_programs/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faceRecognition/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="95" column="52" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtWidgets/QMessageBox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWorld_designer/HelloWorld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWorld_designer/HelloWorld_designer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtCore/QTimer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_Layout_management/example4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="e#45#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SerialDemo/serialDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_Layout_management/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SerialDemo/ui_demo_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="182" column="45" selection-start-line="182" selection-start-column="45" selection-end-line="182" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SerialSQLite/test.db" />
-    <entry file="file://$PROJECT_DIR$/SerialPlot/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SerialPlot/setup.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchShot/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="81" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/example1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/example2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/example3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/example4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6_Widgets/example5.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_Custom widgets/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3358">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_Widgets II/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#53#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SerialPlot/sci_tool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4209">
-          <caret line="183" column="49" selection-start-line="183" selection-start-column="49" selection-end-line="183" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_Widgets II/example1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/example2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generateText/templet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_Menus_and_toolbars/fileopen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_serialSQLite.ui">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16914" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douban_book/人工智能.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douban_book/HtmlCode.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="328" selection-start-line="328" selection-end-line="328" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/ocr_a_reference.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/credit_card_01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/serial/serialutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="263" selection-start-line="263" selection-end-line="263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SerialPlot/sci_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="291" column="7" selection-start-line="291" selection-start-column="7" selection-end-line="291" selection-end-column="8" />
-          <folding>
-            <element signature="e#72#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/douban_book/douban_book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/4.jpg">
+    <entry file="file://$PROJECT_DIR$/gym_data/7.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gym_data/6.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/2.jpg">
+    <entry file="file://$PROJECT_DIR$/gym_data/3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gym_data/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SerialSQLite/SerialSQLite.py">
+    <entry file="file://$PROJECT_DIR$/gym_data/55.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/byopencv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3045">
-          <caret line="10" selection-end-line="203" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="575">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/test.db">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/gym_data/11.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SerialSQLite/serialTest.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="360" column="16" lean-forward="true" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1582876279385" expanded="true" signature="356:1024" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="515:727" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="1024:1025" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="1609:1618" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="2756:2757" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="2757:2766" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="3158:3167" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="8471:8480" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="10574:10583" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="10574:10713" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="10712:10713" ph="..." />
-            <marker date="1582876279385" expanded="true" signature="11523:11524" ph="..." />
-          </folding>
+        <state relative-caret-position="46">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SerialSQLite/ui_serialSQLite.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/importlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="304" column="60" lean-forward="true" selection-start-line="304" selection-start-column="60" selection-end-line="304" selection-end-column="60" />
+        <state relative-caret-position="-974">
+          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gym_data/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/gym_data/2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/PyQt5/QtSql.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="1506" column="12" lean-forward="true" selection-start-line="1506" selection-start-column="12" selection-end-line="1506" selection-end-column="12" />
+        <state relative-caret-position="100349">
+          <caret line="4378" column="4" selection-start-line="4378" selection-start-column="4" selection-end-line="4378" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gym_data/gym.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3358">
-          <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+        <state relative-caret-position="161">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentCard/ui_student.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/imutils/contours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentCard/id1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/myutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentCard/ui_student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="70" lean-forward="true" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerialSQLite/SerialSQLite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="24" selection-start-line="24" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/card.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/temp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/temp1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/temp2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/dilation.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentCard/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="973">
+          <caret line="190" column="21" lean-forward="true" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/binary.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/22.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/44.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/ocr_template_match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/real.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym_data/gym_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="173" selection-start-line="173" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerialSQLite/serialTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="304" selection-start-line="304" selection-end-line="304" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_Dialogs/example1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_Dialogs/example2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_Dialogs/example3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_Dialogs/example4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateText/templet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-881" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="526" column="8" selection-start-line="526" selection-start-column="8" selection-end-line="526" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5830">
+          <caret line="828" column="8" selection-start-line="828" selection-start-column="8" selection-end-line="828" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchShot/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
-            <element signature="e#776#822#0" expanded="true" />
+            <element signature="e#1#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCP/client/stopThreading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/_socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4843">
+          <caret line="538" column="19" selection-start-line="538" selection-start-column="8" selection-end-line="538" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCP/server/ui_server.ui">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1845034700/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="2789" column="6" selection-start-line="2789" selection-start-column="6" selection-end-line="2789" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCP/client/ui_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SerialDemo/serialDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="91" column="29" lean-forward="true" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCP/server/stopThreading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCP/server/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="155" column="4" selection-start-line="155" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1584032793931" expanded="true" signature="1214:1330" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCP/client/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="133" column="76" lean-forward="true" selection-start-line="133" selection-start-column="76" selection-end-line="133" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
