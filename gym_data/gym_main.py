@@ -9,11 +9,11 @@ class Example(QtWidgets.QWidget, Ui_Form):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
+        # 创建一个数据库
         self.setWindowTitle("健身系统")
 
         self.init()
 
-        # 创建一个数据库
         self.create_SQL()
         self.create_SQLTable('gym_table')
 

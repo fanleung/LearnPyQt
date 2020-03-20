@@ -1,12 +1,13 @@
 import sys
 from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QMessageBox
+from PyQt5.QtWidgets import QMessageBox, QFileDialog
 from PyQt5.QtCore import QTimer
 from ui_server import Ui_Form
 import socket
 import threading
 import stopThreading
-
+import datetime
+import os
 
 class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
     def __init__(self):
@@ -38,6 +39,17 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
 
         # 清除接收窗口
         self.rece_clear_button.clicked.connect(self.receive_data_clear)
+
+        # 保存接收文件
+        self.rece_clear_button_2.clicked.connect(self.save_receive)
+
+        # 打开文本文件
+        self.send_clear_button_2.clicked.connect(self.openFile)
+
+        # 定时器发送数据
+        self.timer_send = QTimer(self)
+        self.timer_send.timeout.connect(self.data_send)
+        self.hex_send_2.stateChanged.connect(self.data_send_timer)
 
         # 测试
         self.lineEdit.setText("127.0.0.1")
@@ -112,15 +124,14 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
                         input_s = input_s[2:].strip()
                         send_list.append(num)
                     input_s = bytes(send_list)
+                    for client, address in self.client_socket_list:
+                        client.send(input_s)
+
                 else:
                     # ascii发送
-                    input_s = (input_s + '\r\n').encode('utf-8')
-
-                for client, address in self.client_socket_list:
-                    client.send(input_s)
-                # self.sock.send(input_s)
-                # self.sock.send(input_s.encode('utf-8'))
-
+                    input_s = (input_s + '\r\n')
+                    for client, address in self.client_socket_list:
+                        client.send(input_s.encode('gb2312'))
         else:
             pass
 
@@ -149,11 +160,11 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
                             for i in range(0, len(data)):
                                 out_s = out_s + '{:02X}'.format(data[i]) + ' '
                             # self.s2__receive_text.insertPlainText(out_s)
-                            self.s2__receive_text.append("来自IP:{} 端口:{}\n{}".format(address[0], address[1], out_s))
+                            self.s2__receive_text.append("[{}] 来自IP:{} 端口:{}\n{}".format(self.getCurrentTimeString(), address[0], address[1], out_s))
 
                         else:
                             # 串口接收到的字符串为b'123',要转化成unicode字符串才能输出到窗口中去
-                            self.s2__receive_text.append("来自IP:{} 端口:{}\n{}".format(address[0], address[1], data.decode('gb2312', 'ignore')))
+                            self.s2__receive_text.append("[{}] 来自IP:{} 端口:{}\n{}".format(self.getCurrentTimeString(), address[0], address[1], data.decode('gb2312', 'ignore')))
                             # 使用 insertPlainText 的话可能会导致CPU使用率过大
                             # self.s2__receive_text.insertPlainText(data)
                             pass
@@ -168,6 +179,15 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
                         client.close()
                         self.client_socket_list.remove((client, address))
 
+    # 定时发送数据
+    def data_send_timer(self):
+        if self.hex_send_2.isChecked():
+            self.timer_send.start(int(self.lineEdit_3.text()))
+            self.lineEdit_3.setEnabled(False)
+        else:
+            self.timer_send.stop()
+            self.lineEdit_3.setEnabled(True)
+
 
     # 清除发送显示
     def send_data_clear(self):
@@ -176,6 +196,31 @@ class Pyqt5_Serial(QtWidgets.QWidget, Ui_Form):
     # 清除接收显示
     def receive_data_clear(self):
         self.s2__receive_text.setText("")
+
+    def getCurrentTimeString(self):
+        return datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+    # 保存文件
+    def save_receive(self):
+        if os.path.exists("server_receive.txt"):
+            os.remove("server_receive.txt")
+        file = open("server_receive.txt", 'w')
+        # 获取接收的数据
+        file.write(self.s2__receive_text.toPlainText())
+        file.close()
+
+        QMessageBox.information(self, "提示", "已保存在 server_receive.txt 文件！")
+
+    # 打开文件
+    def openFile(self):
+        # 打开文本
+        fname = QFileDialog.getOpenFileName(self, 'Open file')
+        if os.path.splitext(fname[0])[1] == '.txt':
+            file = open(fname[0])
+            self.s3__send_text.setText(file.read())
+        else:
+            # 提示不支持此文件格式
+            QMessageBox.information(self, "提示", "当前仅支持.txt文件")
 
 
 if __name__ == '__main__':
